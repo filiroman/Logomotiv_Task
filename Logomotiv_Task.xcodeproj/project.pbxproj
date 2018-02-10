@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E383887B202F166700791E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E383887A202F166700791E49 /* AppDelegate.m */; };
+		E383887E202F166700791E49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E383887D202F166700791E49 /* ViewController.m */; };
+		E3838881202F166700791E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E383887F202F166700791E49 /* Main.storyboard */; };
+		E3838883202F166700791E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3838882202F166700791E49 /* Assets.xcassets */; };
+		E3838886202F166700791E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3838884202F166700791E49 /* LaunchScreen.storyboard */; };
+		E3838889202F166700791E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3838888202F166700791E49 /* main.m */; };
+		E3838893202F166700791E49 /* Logomotiv_TaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3838892202F166700791E49 /* Logomotiv_TaskTests.m */; };
+		E383889E202F166700791E49 /* Logomotiv_TaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E383889D202F166700791E49 /* Logomotiv_TaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E383888F202F166700791E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E383886E202F166700791E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3838875202F166700791E49;
+			remoteInfo = Logomotiv_Task;
+		};
+		E383889A202F166700791E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E383886E202F166700791E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3838875202F166700791E49;
+			remoteInfo = Logomotiv_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3838876202F166700791E49 /* Logomotiv_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Logomotiv_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3838879202F166700791E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E383887A202F166700791E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E383887C202F166700791E49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E383887D202F166700791E49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3838880202F166700791E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3838882202F166700791E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3838885202F166700791E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3838887202F166700791E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3838888202F166700791E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E383888E202F166700791E49 /* Logomotiv_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Logomotiv_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3838892202F166700791E49 /* Logomotiv_TaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logomotiv_TaskTests.m; sourceTree = "<group>"; };
+		E3838894202F166700791E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3838899202F166700791E49 /* Logomotiv_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Logomotiv_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E383889D202F166700791E49 /* Logomotiv_TaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logomotiv_TaskUITests.m; sourceTree = "<group>"; };
+		E383889F202F166700791E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3838873202F166700791E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E383888B202F166700791E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3838896202F166700791E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E383886D202F166700791E49 = {
+			isa = PBXGroup;
+			children = (
+				E3838878202F166700791E49 /* Logomotiv_Task */,
+				E3838891202F166700791E49 /* Logomotiv_TaskTests */,
+				E383889C202F166700791E49 /* Logomotiv_TaskUITests */,
+				E3838877202F166700791E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3838877202F166700791E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3838876202F166700791E49 /* Logomotiv_Task.app */,
+				E383888E202F166700791E49 /* Logomotiv_TaskTests.xctest */,
+				E3838899202F166700791E49 /* Logomotiv_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3838878202F166700791E49 /* Logomotiv_Task */ = {
+			isa = PBXGroup;
+			children = (
+				E3838879202F166700791E49 /* AppDelegate.h */,
+				E383887A202F166700791E49 /* AppDelegate.m */,
+				E383887C202F166700791E49 /* ViewController.h */,
+				E383887D202F166700791E49 /* ViewController.m */,
+				E383887F202F166700791E49 /* Main.storyboard */,
+				E3838882202F166700791E49 /* Assets.xcassets */,
+				E3838884202F166700791E49 /* LaunchScreen.storyboard */,
+				E3838887202F166700791E49 /* Info.plist */,
+				E3838888202F166700791E49 /* main.m */,
+			);
+			path = Logomotiv_Task;
+			sourceTree = "<group>";
+		};
+		E3838891202F166700791E49 /* Logomotiv_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3838892202F166700791E49 /* Logomotiv_TaskTests.m */,
+				E3838894202F166700791E49 /* Info.plist */,
+			);
+			path = Logomotiv_TaskTests;
+			sourceTree = "<group>";
+		};
+		E383889C202F166700791E49 /* Logomotiv_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E383889D202F166700791E49 /* Logomotiv_TaskUITests.m */,
+				E383889F202F166700791E49 /* Info.plist */,
+			);
+			path = Logomotiv_TaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3838875202F166700791E49 /* Logomotiv_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38388A2202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_Task" */;
+			buildPhases = (
+				E3838872202F166700791E49 /* Sources */,
+				E3838873202F166700791E49 /* Frameworks */,
+				E3838874202F166700791E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logomotiv_Task;
+			productName = Logomotiv_Task;
+			productReference = E3838876202F166700791E49 /* Logomotiv_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E383888D202F166700791E49 /* Logomotiv_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38388A5202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_TaskTests" */;
+			buildPhases = (
+				E383888A202F166700791E49 /* Sources */,
+				E383888B202F166700791E49 /* Frameworks */,
+				E383888C202F166700791E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3838890202F166700791E49 /* PBXTargetDependency */,
+			);
+			name = Logomotiv_TaskTests;
+			productName = Logomotiv_TaskTests;
+			productReference = E383888E202F166700791E49 /* Logomotiv_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3838898202F166700791E49 /* Logomotiv_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38388A8202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_TaskUITests" */;
+			buildPhases = (
+				E3838895202F166700791E49 /* Sources */,
+				E3838896202F166700791E49 /* Frameworks */,
+				E3838897202F166700791E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E383889B202F166700791E49 /* PBXTargetDependency */,
+			);
+			name = Logomotiv_TaskUITests;
+			productName = Logomotiv_TaskUITests;
+			productReference = E3838899202F166700791E49 /* Logomotiv_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E383886E202F166700791E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = romanfilippov;
+				TargetAttributes = {
+					E3838875202F166700791E49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E383888D202F166700791E49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3838875202F166700791E49;
+					};
+					E3838898202F166700791E49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3838875202F166700791E49;
+					};
+				};
+			};
+			buildConfigurationList = E3838871202F166700791E49 /* Build configuration list for PBXProject "Logomotiv_Task" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E383886D202F166700791E49;
+			productRefGroup = E3838877202F166700791E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3838875202F166700791E49 /* Logomotiv_Task */,
+				E383888D202F166700791E49 /* Logomotiv_TaskTests */,
+				E3838898202F166700791E49 /* Logomotiv_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3838874202F166700791E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3838886202F166700791E49 /* LaunchScreen.storyboard in Resources */,
+				E3838883202F166700791E49 /* Assets.xcassets in Resources */,
+				E3838881202F166700791E49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E383888C202F166700791E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3838897202F166700791E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3838872202F166700791E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E383887E202F166700791E49 /* ViewController.m in Sources */,
+				E3838889202F166700791E49 /* main.m in Sources */,
+				E383887B202F166700791E49 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E383888A202F166700791E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3838893202F166700791E49 /* Logomotiv_TaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3838895202F166700791E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E383889E202F166700791E49 /* Logomotiv_TaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3838890202F166700791E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3838875202F166700791E49 /* Logomotiv_Task */;
+			targetProxy = E383888F202F166700791E49 /* PBXContainerItemProxy */;
+		};
+		E383889B202F166700791E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3838875202F166700791E49 /* Logomotiv_Task */;
+			targetProxy = E383889A202F166700791E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E383887F202F166700791E49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3838880202F166700791E49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3838884202F166700791E49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3838885202F166700791E49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E38388A0202F166700791E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E38388A1202F166700791E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E38388A3202F166700791E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E38388A4202F166700791E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E38388A6202F166700791E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Logomotiv_Task.app/Logomotiv_Task";
+			};
+			name = Debug;
+		};
+		E38388A7202F166700791E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Logomotiv_Task.app/Logomotiv_Task";
+			};
+			name = Release;
+		};
+		E38388A9202F166700791E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Logomotiv_Task;
+			};
+			name = Debug;
+		};
+		E38388AA202F166700791E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EM5S8Z2PVZ;
+				INFOPLIST_FILE = Logomotiv_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.romanfilippov.Logomotiv-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Logomotiv_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3838871202F166700791E49 /* Build configuration list for PBXProject "Logomotiv_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38388A0202F166700791E49 /* Debug */,
+				E38388A1202F166700791E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38388A2202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38388A3202F166700791E49 /* Debug */,
+				E38388A4202F166700791E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38388A5202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38388A6202F166700791E49 /* Debug */,
+				E38388A7202F166700791E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38388A8202F166700791E49 /* Build configuration list for PBXNativeTarget "Logomotiv_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38388A9202F166700791E49 /* Debug */,
+				E38388AA202F166700791E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E383886E202F166700791E49 /* Project object */;
+}

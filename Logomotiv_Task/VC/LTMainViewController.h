@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LTMainViewController.h
 //  Logomotiv_Task
 //
 //  Created by Roman Filippov on 10/02/2018.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LTMainViewController : UITableViewController
 
 @end
-

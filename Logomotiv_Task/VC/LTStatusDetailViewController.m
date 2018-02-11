@@ -47,12 +47,12 @@
   self.statusDate.text = _status.statusCreationDate.shortTimeAgoSinceNow;
   
   [self.statusText sizeToFit];
-  [self.userAvatar setImageWithURL:[NSURL URLWithString:_status.userAvatarURL] placeholderImage:nil];
+  [self.userAvatar setImageWithURL:[NSURL URLWithString:_status.userAvatarURL] placeholderImage:[UIImage imageNamed:@"avatar_placeholder"]];
   
   if ([[_status mediaAttachments] count] > 0)
   {
     MDMediaObject *mObj = [[_status mediaAttachments] firstObject];
-    [self.statusMediaView setImageWithURL:[NSURL URLWithString:mObj.objectURL] placeholderImage:nil];
+    [self.statusMediaView setImageWithURL:[NSURL URLWithString:mObj.objectURL] placeholderImage:[UIImage imageNamed:@"avatar_placeholder"]];
   }
 }
 

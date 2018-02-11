@@ -39,7 +39,7 @@
   self.statusText.text = _status.statusText;
   self.statusDate.text = _status.statusCreationDate.shortTimeAgoSinceNow;
   
-  [self.userAvatar setImageWithURL:[NSURL URLWithString:_status.userAvatarURL] placeholderImage:nil];
+  [self.userAvatar setImageWithURL:[NSURL URLWithString:_status.userAvatarURL] placeholderImage:[UIImage imageNamed:@"avatar_placeholder"]];
 }
 
 - (void)setStatus:(MDStatus *)status
